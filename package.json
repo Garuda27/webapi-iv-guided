@@ -4,7 +4,9 @@
   "description": "Guided project for **Web API IV** module.",
   "main": "index.js",
   "scripts": {
-    "server": "nodemon index.js"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon index.js",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -27,3 +29,4 @@
     "nodemon": "^2.0.1"
   }
 }
+ 
